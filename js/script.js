@@ -4,13 +4,13 @@ function pow(x, n) {
   var result = x;
   for (i = 1; i < n; i++) {
   result *=x;
-}
+  }
 
-if (exponent == 0) {
-  result = 1;
-}
+  if (exponent == 0) {
+    result = 1;
+  }
 
-return result;
+  return result;
 }
 
 var namber = prompt('Введите число: ', '');
@@ -36,6 +36,7 @@ if (exponent < 0) {
   x = 1/namber;
   n = -exponent;
 }
+
 alert('Результат: ' + namber + ' ^ ' + exponent + ' = ' + pow(x, n) + ' (Доступен в консоли по завершению 2-й части)');
 console.log('Результат: ' + namber + ' ^ ' + exponent + ' =', pow(x, n));
 
@@ -51,7 +52,7 @@ for (i = 0; i < 5; i++ ) {
       enterName = prompt('Введенное имя уже есть в списке! Введите другое имя:', '');
     }
   }
-loginName[i] = enterName;
+  loginName[i] = enterName;
 }
 
 var loginUser = prompt('Введите имя пользователя - ', '');
