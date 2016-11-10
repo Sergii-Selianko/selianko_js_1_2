@@ -19,12 +19,12 @@ function isNumeric(namber) {
 }
 
 while (isNumeric(namber) == false) {
-namber = prompt('Введенны недопустимые даные! Введите другое число: ', '');
+namber = prompt('Введены недопустимые даные! Введите другое число: ', '');
 }
 
 var exponent = prompt('Введите степень', '');
 while (isNumeric(exponent) == false) {
-exponent = prompt('Введенны недопустимые даные!! Введите другую степень: ', '');
+exponent = prompt('Введены недопустимые даные!! Введите другую степень: ', '');
 }
 
 if (exponent >= 0) {
